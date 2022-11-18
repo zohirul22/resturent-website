@@ -1,38 +1,42 @@
-body{
-background-color: azure;
-}
-/******************* bannar css************** */
-.bannar-section{
-background-image: url('./img/bannar.png');
-background-repeat: no-repeat;
-height: 500px;
-background-size: cover;
-}
-.bannar{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap:50px 100px;
+body {
+    background-color: azure;
 }
 
-.bannar-right{
-padding: 5px 100px;
+/******************* bannar css************** */
+.bannar-section {
+    background-image: url('./img/bannar.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
 }
-.bannar-right>h1{
+
+.bannar {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 100px;
+}
+
+.bannar-right {
+    padding: 5px 100px;
+}
+
+.bannar-right>h1 {
     color: rgb(11, 218, 56);
     font-size: 65px;
 }
 
-.bannar-right>p{
+.bannar-right>p {
     width: 400px;
     color: rgb(125, 134, 151);
     font-size: 20px;
     text-align: justify;
 }
+
 /***************** bannar css*********** */
 
 /***************** btn****************** */
 .button {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     border: none;
     border-radius: 5px;
     color: white;
@@ -44,29 +48,69 @@ padding: 5px 100px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  .button3:hover {
+}
+
+.button3:hover {
     background-color: #f44336;
     color: white;
-  }  
-  /***************** btn****************** */
-  .about-section{
-   background-color: lavender;
+}
+
+/***************** btn****************** */
+/***************** about css****************** */
+
+.about-section {
+    background-color: lavender;
     padding: 20px;
-  }
-.about{
+}
+
+.about {
     text-align: center;
     margin: 0px 300px;
-   
 }
-.about>h1{
-font-size: 50px;
-font-family: Arial, Helvetica, sans-serif;
+
+.about>h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.about>p{
+
+.about>p {
     font-size: 20px;
     text-align: justify;
 }
-.btn{
+
+.btn {
     text-align: center;
 }
+
+/***************** about css****************** */
+
+/***************** card css****************** */
+.card-section {
+    background-image: url('/img/bakkary\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-size {
+    display: flex;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px 50px;
+    padding: 30px 100px;
+}
+
+.single-card {
+    border: 1px solid rgb(109, 99, 99);
+    padding: 10px;
+    width: 200px;
+    color: rgb(101, 104, 108);
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(225, 213, 213, 0.25) 0px 54px 55px, rgba(240, 220, 220, 0.12) 0px -12px 30px, rgba(244, 210, 210, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(241, 211, 211, 0.09) 0px -3px 5px;
+}
+
+/***************** card css****************** */
