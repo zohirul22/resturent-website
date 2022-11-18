@@ -114,3 +114,48 @@ body {
 }
 
 /***************** card css****************** */
+
+/**************** items card css************** */
+.iteam-section {
+    background-color: antiquewhite;
+    padding: 20px 40px;
+}
+
+.iteams-info {
+    text-align: center;
+}
+
+.iteams-info>h1 {
+    font-size: 40px;
+    color: blue;
+}
+
+.iteams-info>p {
+    text-align: justify;
+    padding: 0px 200px;
+}
+.iteams-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+    padding: 30px 100px;
+}
+
+.iteams-single-card {
+
+    padding: 10px;
+    width: 200px;
+    color: rgb(101, 104, 108);
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(225, 213, 213, 0.25) 0px 54px 55px, rgba(240, 220, 220, 0.12) 0px -12px 30px, rgba(244, 210, 210, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(241, 211, 211, 0.09) 0px -3px 5px;
+}
+
+.iteams-single-card>img {
+    width: 200px;
+}
+
+
+
+/****************items card css*************** */
