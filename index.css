@@ -50,16 +50,16 @@ body {
     cursor: pointer;
 }
 
-.button3:hover {
+.button1:hover {
     background-color: #f44336;
     color: white;
 }
 
 /***************** btn****************** */
-/***************** about css****************** */
 
+/***************** about css****************** */
 .about-section {
-    background-color: lavender;
+    background-color: rgba(230, 230, 250, 0.461);
     padding: 20px;
 }
 
@@ -117,7 +117,7 @@ body {
 
 /**************** items card css************** */
 .iteam-section {
-    background-color: antiquewhite;
+    background-color: rgba(230, 230, 250, 0.461);
     padding: 20px 40px;
 }
 
@@ -134,6 +134,7 @@ body {
     text-align: justify;
     padding: 0px 200px;
 }
+
 .iteams-card {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -146,16 +147,19 @@ body {
     padding: 10px;
     width: 200px;
     color: rgb(101, 104, 108);
-    background-color: aliceblue;
-    text-align: center;
+    background-color: rgba(240, 248, 255, 0.437);
     border-radius: 5px;
-    box-shadow: rgba(225, 213, 213, 0.25) 0px 54px 55px, rgba(240, 220, 220, 0.12) 0px -12px 30px, rgba(244, 210, 210, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(241, 211, 211, 0.09) 0px -3px 5px;
+
+}
+
+.iteams-single-card>h1 {
+    color: rebeccapurple;
 }
 
 .iteams-single-card>img {
     width: 200px;
+    border: 1px solid yellow;
+
 }
-
-
 
 /****************items card css*************** */
